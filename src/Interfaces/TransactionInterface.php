@@ -13,7 +13,7 @@ interface TransactionInterface
 {
     public function getReference(): string;
     public function getAmount(): float;
-    public function getCountry(): float;
+    public function getCountry(): string;
     public function getRecipientPhone(): string;
     public function getRecipientFirstName(): string;
     public function getRecipientLastName(): string;
@@ -21,4 +21,6 @@ interface TransactionInterface
     public function getSenderLastName(): string;
     public function getSenderKycNumber(): string;
     public function getSenderKycType(): string;
+    public function getSenderPhone(): string;
+    public function getSenderEmail(): string;
 }

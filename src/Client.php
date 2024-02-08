@@ -110,6 +110,18 @@ class Client implements HttpClientInterface
             \GuzzleHttp\RequestOptions::JSON => [
                 'agent_msisdn' => $this->config->getAgentMsisdn(),
                 'agent_pin' => $this->config->getAgentPin(),
+                'customer_first_name' => $transaction->getSenderFirstName(),
+                'customer_last_name' => $transaction->getSenderLastName(),
+                'customer_phone_number' => $transaction->getSenderPhone(),
+                'customer_sender_email' =>  $transaction->getSenderEmail(),
+                'kyc_number' => $transaction->getSenderKycNumber(),
+                'kyc_type' => $transaction->getSenderKycType(),
+                'montant' => (string) $transaction->getAmount(),
+                'country' => $transaction->getCountry(),
+                'receiver_first_name' => $transaction->getRecipientFirstName(),
+                'receiver_last_name' => $transaction->getRecipientLastName(),
+                'receiver_phone_number' => $transaction->getRecipientPhone(),
+                'external_trx_id' => $transaction->getReference(),
             ],
         ];
 
