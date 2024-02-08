@@ -139,7 +139,7 @@ class Client implements HttpClientInterface
         return new TransferCashResponse($response);
     }
 
-    public function cashStatus(string $transactionId, string $country): TransferCashStatusResponse
+    public function transferCashStatus(string $transactionId): TransferCashStatusResponse
     {
         $options = [
             \GuzzleHttp\RequestOptions::HEADERS => [
@@ -150,7 +150,7 @@ class Client implements HttpClientInterface
                 'agent_msisdn' => $this->config->getAgentMsisdn(),
                 'agent_pin' => $this->config->getAgentPin(),
                 'transaction_id' => $transactionId,
-                'country' => $country,
+                'country' => $this->config->getCountry(),
             ],
         ];
 

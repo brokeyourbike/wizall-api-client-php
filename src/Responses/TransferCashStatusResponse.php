@@ -14,6 +14,9 @@ use BrokeYourBike\DataTransferObject\JsonResponse;
  */
 class TransferCashStatusResponse extends JsonResponse
 {
+    public ?string $code;
+    public ?string $error;
+
     #[MapFrom('TokenStatus')]
     public ?string $status;
 
