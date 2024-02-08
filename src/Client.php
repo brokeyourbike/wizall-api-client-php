@@ -1,6 +1,6 @@
 <?php
 
-// Copyright (C) 2023 Ivan Stasiuk <ivan@stasi.uk>.
+// Copyright (C) 2024 Ivan Stasiuk <ivan@stasi.uk>.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -86,6 +86,7 @@ class Client implements HttpClientInterface
                 'country' => $this->config->getCountry(),
                 'client_id' => $this->config->getClientId(),
                 'client_secret' => $this->config->getClientSecret(),
+                'client_type' => 'client_type',
                 'username' => $this->config->getUsername(),
                 'password' => $this->config->getPassword(),
             ],
