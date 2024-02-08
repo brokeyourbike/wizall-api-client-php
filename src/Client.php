@@ -71,7 +71,7 @@ class Client implements HttpClientInterface
             (int) $response->expires_in / 2
         );
 
-        return $response->access_token;
+        return (string) $response->access_token;
     }
 
 
