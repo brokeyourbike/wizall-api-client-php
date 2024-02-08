@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.4](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.3...v0.2.4) (2024-02-08)
+
+
+### Bug Fixes
+
+* public ([79fcd82](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/79fcd8269e9867faa79fd9a82b0a716aa12d278d))
+
 ### [0.2.3](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.2...v0.2.3) (2024-02-08)
 
 
