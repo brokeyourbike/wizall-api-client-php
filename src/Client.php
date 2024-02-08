@@ -86,7 +86,7 @@ class Client implements HttpClientInterface
                 'country' => $this->config->getCountry(),
                 'client_id' => $this->config->getClientId(),
                 'client_secret' => $this->config->getClientSecret(),
-                'client_type' => 'client_type',
+                'client_type' => 'public',
                 'username' => $this->config->getUsername(),
                 'password' => $this->config->getPassword(),
             ],
@@ -135,7 +135,7 @@ class Client implements HttpClientInterface
             (string) $this->resolveUriFor($this->config->getUrl(), "api/transfert/cash/"),
             $options
         );
-        
+
         return new TransferCashResponse($response);
     }
 
