@@ -52,7 +52,7 @@ class FetchAuthTokenRawTest extends TestCase
                     'country' => 'SN',
                     'client_id' => 'client-id',
                     'client_secret' => 'super-secret-value',
-                    'client_type' => 'client_type',
+                    'client_type' => 'public',
                     'username' => 'john',
                     'password' => 'p@ssword',
                 ],
