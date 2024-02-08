@@ -1,5 +1,18 @@
 # Changelog
 
+### [0.2.3](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.2...v0.2.3) (2024-02-08)
+
+
+### Bug Fixes
+
+* no need for country ([c40a8d6](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/c40a8d68213bdb88eda1b521982b57813b24fc5c))
+
+
+### Miscellaneous Chores
+
+* 2024 ([704f06b](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/704f06b38d2ad1fa30b4d84e88962480af003ccd))
+* license name ([03664e2](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/03664e2f497253ac68183b65c8956006e064c9bd))
+
 ### [0.2.2](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.1...v0.2.2) (2024-02-08)
 
 
