@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.2](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.1...v0.2.2) (2024-02-08)
+
+
+### Miscellaneous Chores
+
+* example ([6d9b0cd](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/6d9b0cdb8ce5d4d85914d40e0b5fe29619c0816c))
+
 ### [0.2.1](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.0...v0.2.1) (2024-02-08)
 
 
