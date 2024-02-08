@@ -81,7 +81,7 @@ class Client implements HttpClientInterface
             \GuzzleHttp\RequestOptions::HEADERS => [
                 'Accept' => 'application/json',
             ],
-            \GuzzleHttp\RequestOptions::FORM_PARAMS => [
+            \GuzzleHttp\RequestOptions::JSON => [
                 'grant_type' => 'password',
                 'country' => $this->config->getCountry(),
                 'client_id' => $this->config->getClientId(),
