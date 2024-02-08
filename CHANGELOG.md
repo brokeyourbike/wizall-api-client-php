@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.1.0...v0.2.0) (2024-02-08)
+
+
+### Features
+
+* sender and country ([f0999da](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/f0999da8e411be568b832d4fdb7c196cc6df3b71))
+
 ## 0.1.0 (2024-02-08)
 
 
