@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.5](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.4...v0.2.5) (2025-01-11)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump nesbot/carbon from 2.72.3 to 2.72.6 ([1ee335f](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/1ee335ffde7484b66e2e0dc9c70496f1d3731185))
+
 ### [0.2.4](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.3...v0.2.4) (2024-02-08)
 
 
