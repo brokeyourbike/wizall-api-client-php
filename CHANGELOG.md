@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.6](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.5...v0.2.6) (2026-03-10)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump phpunit/phpunit from 9.6.16 to 9.6.33 ([ea08654](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/ea08654fa1d19bdbc8d14bc2d51176e4abed65a9))
+
 ### [0.2.5](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.4...v0.2.5) (2025-01-11)
 
 
