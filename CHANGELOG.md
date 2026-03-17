@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.6...v0.3.0) (2026-03-17)
+
+
+### Features
+
+* source ([e825c26](https://www.github.com/brokeyourbike/wizall-api-client-php/commit/e825c266c0126b649311b53fea58565622144276))
+
 ### [0.2.6](https://www.github.com/brokeyourbike/wizall-api-client-php/compare/v0.2.5...v0.2.6) (2026-03-10)
 
 
