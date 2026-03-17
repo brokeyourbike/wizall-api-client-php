@@ -92,6 +92,10 @@ class Client implements HttpClientInterface
             ],
         ];
 
+        if ($this->getSourceModel() != null){
+            $options[\BrokeYourBike\HasSourceModel\Enums\RequestOptions::SOURCE_MODEL] = $this->getSourceModel();
+        }
+
         $response = $this->httpClient->request(
             HttpMethodEnum::POST->value,
             (string) $this->resolveUriFor($this->config->getUrl(), "token/"),
@@ -126,8 +130,8 @@ class Client implements HttpClientInterface
             ],
         ];
 
-        if ($transaction instanceof SourceModelInterface){
-            $options[\BrokeYourBike\HasSourceModel\Enums\RequestOptions::SOURCE_MODEL] = $transaction;
+        if ($this->getSourceModel() != null){
+            $options[\BrokeYourBike\HasSourceModel\Enums\RequestOptions::SOURCE_MODEL] = $this->getSourceModel();
         }
 
         $response = $this->httpClient->request(
@@ -153,6 +157,10 @@ class Client implements HttpClientInterface
                 'country' => $this->config->getCountry(),
             ],
         ];
+
+        if ($this->getSourceModel() != null){
+            $options[\BrokeYourBike\HasSourceModel\Enums\RequestOptions::SOURCE_MODEL] = $this->getSourceModel();
+        }
 
         $response = $this->httpClient->request(
             HttpMethodEnum::POST->value,
